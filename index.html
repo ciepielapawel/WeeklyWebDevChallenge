@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+	<link href="fontello/css/fontello.css" rel="stylesheet" type="text/css" />
+
+	<title>Zadanie 3</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+		jQuery(function($) {
+			$.scrollTo(0);
+			$('#link1').click(function() {
+				$.scrollTo($('#home'), 500);
+			});
+			$('#link2').click(function() {
+				$.scrollTo($('#about'), 500);
+			});
+
+			$('#link3').click(function() {
+				$.scrollTo($('#blog'), 500);
+			});
+			$('#link4').click(function() {
+				$.scrollTo($('#portfolio'), 500);
+			});
+
+			$('#link5').click(function() {
+				$.scrollTo($('#contact'), 500);
+			});
+		});
+
+	</script>
+</head>
+
+<body>
+
+	<header class="nav-opened" id="home">
+		<div class="logo">
+			<a href="#"> <img src="images/icon-logo.png" alt="logo threhouse">
+				<h1>THREEHOUSE</h1>
+			</a>
+		</div>
+		<nav>
+			<a id="link1" href="#">
+                    Home
+                </a>
+			<a id="link2" href="#">
+                    About
+                </a>
+			<a id="link3" href="#">
+                    Blog
+                </a>
+			<a id="link4" href="#">
+                   Portfolio
+                </a>
+			<a id="link5" href="#">
+                   Contact
+                </a>
+		</nav>
+
+		<button class="hamburger">
+            <i class="icon-menu"> </i>
+            <i class="icon-cancel"> </i>
+            </button>
+	</header>
+
+	<section class="title-section">
+		<hgroup class="heding-title">
+			<h1> Creativ Digital <br> Solution</h1>
+			<h5> Proin iaculis purus consequat sem cure</h5>
+		</hgroup>
+		<bottom class="btn"> VIEW PORTFOLIO </bottom>
+	</section>
+
+	<section class="profesional-services" id="about">
+		<hgroup class="header-services">
+			<h1> Profesional Services </h1>
+			<h5> Proin iaculis purus consequat sem cure</h5>
+		</hgroup>
+
+		<div class="features">
+			<figure>
+				<img src="images/heart.png" alt="heart">
+				<figcaption>
+					<h2>BEAUTIFUL DESIGNS</h2>
+					<p> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="images/phone.png" alt="phone">
+				<figcaption>
+					<h2>RESPONSIVE WEB</h2>
+					<p> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="images/graphic.png" alt="graphic">
+				<figcaption>
+					<h2>MARKETING TOOLS</h2>
+					<p> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</figcaption>
+			</figure>
+			<div class="clear"> </div>
+		</div>
+	</section>
+
+	<section id="blog" class="just-relax">
+		<div class="just-relax-left"> </div>
+		<div class="just-relax-right">
+			<h1> JUST RELAX <span>&</span><br> LET US DO THE HEAVY LIFTING</h1>
+			<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</h5>
+			<div class="circle"><img src="images/circle.png" alt="okrąg">
+				<p>Initial Setup <span>&</span> Customizations </p>
+			</div>
+			<div class="clear"> </div>
+			<div class="circle"> <img src="images/circle.png" alt="okrąg">
+				<p>Regular Updates </p>
+			</div>
+			<div class="clear"> </div>
+			<div class="circle"> <img src="images/circle.png" alt="okrąg">
+				<p>Round The Clock Support </p>
+			</div>
+			<div class="clear"> </div>
+			<bottom class="btn-just-relax"> LEARN MORE </bottom>
+
+		</div>
+		<div class="clear"> </div>
+	</section>
+
+	<section class="latest-project" id="portfolio">
+		<hgroup>
+			<h2>LATEST PROJECT </h2>
+			<h5>Proin iaculis purus consequat sem cure</h5>
+		</hgroup>
+
+		<img class="tablet" src="images/tablet.png" alt="tablet">
+		<h3>DEVELOPING A FRAMEWORK </h3>
+		<p>Proin iaculis purus consequat sem cure digni ssim <br> donec porttitora entum suscipit aenean rhoncus posuere <br> odio in tincidunt.</p>
+		<div class="project-item">
+			<img class="icons" src="images/trush.png" alt="kosz">
+			<h6>E-Commerce Ready</h6>
+			<p>Proin iaculis purus consequat sem cure digni ssim.</p>
+		</div>
+		<div class="clear"> </div>
+
+		<div class="project-item">
+			<img class="icons" src="images/icon-laptop.png" alt="icona laptopa">
+			<h6> Powerful SEO Features </h6>
+			<p>Proin iaculis purus consequat sem cure.</p>
+		</div>
+		<div class="clear"> </div>
+
+		<div class="project-item">
+			<img class="icons" src="images/icon-laptop.png" alt="icona kłódki">
+			<h6> Secure Encryption </h6>
+			<p> Proin iaculis purus consequat sem cure iaculis purus. </p>
+		</div>
+		<div class="clear"> </div>
+		<footer>
+			<p>Proin iaculis purus consequat sem cure digni ssim donec<br> porttitora entum suscipit aenean rhoncus posuere odio in.</p>
+			<a href="#"> VIEW DETAILS <img src="images/arrow.png" alt="strzałka"></a>
+		</footer>
+	</section>
+
+	<section class="six">
+		<hgroup>
+			<h2> CULTURE & VALUES</h2>
+			<h5>Proin iaculis purus consequat sem cure</h5>
+		</hgroup>
+
+		<div class="six-features">
+			<figure class="item-container">
+				<img src="images/music.png" alt="nutka">
+				<figcaption>
+					<h2>WORK-LIFE BALANCE</h2>
+					<p> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</figcaption>
+			</figure>
+			<figure class="item-container">
+				<img src="images/music.png" alt="">
+				<figcaption>
+					<h2>QUALITY OVER QUANTITY</h2>
+					<p> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</figcaption>
+			</figure>
+			<figure class="item-container">
+				<img src="images/music.png" alt="">
+				<figcaption>
+					<h2>DELIVERY EXCELLENCE</h2>
+					<p> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="our-awesome-client">
+		<hgroup>
+			<h2> CULTURE & VALUES</h2>
+			<h5>Proin iaculis purus consequat sem cure</h5>
+		</hgroup>
+		<div class="box-comments">
+			<div class="circle-comments"></div>
+			<div class="text-coments">
+
+				<blockquote> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus. </blockquote>
+
+				<a> - Jamie Richardson, Founder of Cocoa Media</a>
+			</div>
+
+		</div>
+		<div class="clear"> </div>
+		<div class="box-comments">
+
+			<div class="text-coments">
+
+				<blockquote> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus. </blockquote>
+
+				<a> - Jamie Richardson, Founder of Cocoa Media</a>
+			</div>
+			<div class="circle-comments"></div>
+		</div>
+	</section>
+
+	<section class="ready-to-talk">
+		<h2> READY TO TALK ABOUT YOUR NEXT PROJECT?
+		</h2>
+		<button> Contact us</button>
+	</section>
+	<section class="logos">
+		<img src="images/evanto.png" alt="logo firmy evanto">
+		<img src="images/wordpress.png" alt="logo firmy wordpress">
+		<img src="images/aetust.png" alt="logo firmy aetust+">
+		<img src="images/microlancer.png" alt="logo firmy microlancer">
+	</section>
+
+	<footer class="top-footer" id="contact">
+		<div class="container-post">
+			<div class="contact">
+				<h3> CONTACT US</h3>
+				<div>
+					<img src="images/location.png" alt="icona-lokalizacji">
+					<p> 55 Main St. <br> Toronto, <br> ON M1H 3A5 </p>
+				</div>
+				<div>
+					<img src="images/iphone.png" alt="icona-telefonu">
+					<p class="phone-numer"> (416) 555-5252</p>
+				</div>
+				<div class="box-email">
+					<img src="images/email-png.png" alt="icona-listu">
+					<p class="email">hello@treehouse.com</p>
+				</div>
+			</div>
+			<div class="latest-posts">
+
+				<h3> LATEST POSTS</h3>
+				<div class="post">
+					<img src="images/news.png" alt="icona-atrykułu">
+					<a href="#"> Made With Love In Toronto </a>
+				</div>
+				<div class="post">
+					<img src="images/photo.png" alt="icona-zdjęcia">
+					<a href="#">Startup News & Emerging Tech </a>
+				</div>
+				<div class="post">
+					<img src="images/news.png" alt="icona-atrykułu">
+					<a href="#"> Bitcoin Will Soon Rule The World </a>
+				</div>
+				<div class="post">
+					<img src="images/news.png" alt="icona-atrykułu">
+					<a href="#"> Wearable Technology On The Rise </a>
+				</div>
+				<div class="post">
+					<img src="images/play.png" alt="icona-play">
+					<a href="#"> Learn Web Design In 30 Days! </a>
+
+				</div>
+			</div>
+			<div class="latest-tweets">
+				<h3> LATEST TWEETS</h3>
+				<article>
+					<img src="images/tweets.png" alt="icona-tweeta">
+					<div class="post">
+						<a href="#"> Confucius: Life is really simple, but we insist on making it complicated. </a>
+						<h4> #famousquotes </h4>
+						<h6>8 mins ago</h6>
+					</div>
+				</article>
+				<article>
+					<img src="images/tweets.png" alt="icona-tweeta">
+					<div class="post">
+						<a href="#"> Confucius: Life is really simple, but we insist on making it complicated. </a>
+						<h4> #freebies #templates</h4>
+						<h6>2 days ago</h6>
+					</div>
+				</article>
+
+
+			</div>
+		</div>
+	</footer>
+
+	<footer class="bottom-footer">
+		<div class="copyright">
+			<p>Ⓒ Copyright 2014 FreebiesXpress.com </p>
+		</div>
+		<div class="social">
+			<div class="circle">
+				<i class="icon-twitter"> </i>
+			</div>
+			<div class="circle">
+				<i class="icon-facebook"> </i>
+			</div>
+			<div class="circle">
+				<i class="icon-pinterest"> </i>
+			</div>
+			<div class="circle">
+				<i class="icon-gplus"> </i>
+			</div>
+			<div class="clear"> </div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="main.js"></script>
+	<script src="jquery-1.11.3.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			var NavY = $('header').offset().top;
+
+			var stickyNav = function() {
+				var ScrollY = $(window).scrollTop();
+
+				if (ScrollY > NavY) {
+					$('header').addClass('sticky');
+				} else {
+					$('header').removeClass('sticky');
+				}
+			};
+
+			stickyNav();
+
+			$(window).scroll(function() {
+				stickyNav();
+			});
+		});
+
+	</script>
+</body>
+
+
+</html>
