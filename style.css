@@ -72,7 +72,9 @@ nav a:hover {
 /* style dla title section */
 
 .title-section {
+	width: 100%;
 	background: url("images/title-background.png") no-repeat;
+	background-size: cover;
 	height: 530px;
 	position: relative;
 }
@@ -184,6 +186,10 @@ nav a:hover {
 
 
 /* style dla just-relax */
+
+.just-relax {
+	width: 100%;
+}
 
 .just-relax-right {
 	padding: 100px 0 0 100px;
