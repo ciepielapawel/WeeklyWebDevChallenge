@@ -227,6 +227,7 @@ nav a:hover {
 	width: 30%;
 	height: 615px;
 	background: url('images/just-relax-background-left.png') no-repeat;
+	background-size: cover;
 	float: left;
 }
 
@@ -235,6 +236,7 @@ nav a:hover {
 	height: 615px;
 	float: left;
 	background: url('images/just-relax-background-right.png') no-repeat;
+	background-size: cover;
 }
 
 .just-relax .circle img {
